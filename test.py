@@ -1,4 +1,4 @@
-from main import rectangle_area, triangle_area
+from main import rectangle_area, triangle_area, circle_area
 import pytest
 
 def test_calculate_rectangle_area():
