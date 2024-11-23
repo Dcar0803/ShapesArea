@@ -23,3 +23,6 @@ def triangle_area(base, height):
         float: the area of a triangle
     """
     return 0.5 * (base * height)
+
+def circle_area(radius):
+    return math.pi * (radius**2)
