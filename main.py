@@ -25,4 +25,12 @@ def triangle_area(base, height):
     return 0.5 * (base * height)
 
 def circle_area(radius):
+    """Calculate the area of a circle
+
+    Args:
+        radius (float): the radius of a circle
+
+    Returns:
+        float: the area of a circle
+    """
     return math.pi * (radius**2)
